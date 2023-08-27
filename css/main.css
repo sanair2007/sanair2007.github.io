@@ -1,0 +1,22 @@
+body  
+{
+  background-color:grey;
+  font-family:sans-serif;
+}
+
+div
+{
+  background-color:white;
+  border:5px ridge indigo;
+  padding:5px;
+}
+
+h1
+{
+  color: green;
+}
+
+p
+{
+  color: teal;
+}
