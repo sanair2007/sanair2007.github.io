@@ -2,11 +2,20 @@ body
 {
 min-width:500px;
 height: auto;
+background-color: #16142d;
+background-image: url("../images/brick.png");
+}
+
+img
+{
+max-width: 100%;
+min-width: 20px;
+height: auto;
 }
 
 a
 {
-color: #00ff00;
+color: #008800;
 text-decoration: none;
 }
 
@@ -17,41 +26,34 @@ color: #000000;
 text-decoration: underline 5px;
 }
 
-div.navbar a
-{
-text-decoration: none;
-color: #f05000;
-}
-
-div.navbar a:hover
-{
-background-color: #000000;
-color: #8888ff;
-}
-
 header, footer
 {
-background-color: #ffffff;
-margin: 5px auto 5px auto;
-width: 90%;
-padding: 5px;
-color: #000000;
+background-color: #000000aa;
+margin: 5% auto;
+width: 80%;
+padding: 1%;
+color: #ffffffff;
 text-align: center;
 }
 
 h1
 {
-color: #00bb15;
+color: #2ab83a;
 font-family: sans-serif;
 font-size: 32px;
+padding: 1%;
+background-color: #ffffffdd;
 }
 
 p
 {
-color: #3b8c5f;
+color: #1e4831;
 font-family: sans-serif;
 font-size: 16px;
 text-align: justify;
+padding: 1%;
+margin: auto 5%;
+background-color: #ffffffdd;
 }
 
 ul
@@ -60,16 +62,8 @@ color: #b344bf;
 font-family: serif;
 font-size: 24px;
 font-style: italic;
-}
-
-div.navbar ul
-{
-background-color: #eeeeee;
-list-style-type: square;
-list-style-position: inside;
-color: #dd9900;
-font-size: 14px;
-padding: 5px;
+margin: 5%;
+background-color: #ffffffdd;
 }
 
 ol
@@ -78,6 +72,8 @@ color: #7269b1;
 font-family: serif;
 font-size: 24px;
 font-style: italic;
+margin: 5%;
+background-color: #ffffffdd;
 }
 
 table
@@ -114,45 +110,52 @@ clear: both;
 
 div.body
 {
-width: 90%;
-padding: 5px;
-margin: auto;
-background-color: #888;
-background-image: url("https://sanair2007.github.io/demo/images/blackforest.png");
+width: 80%;
+padding: 1%;
+margin: 5% auto;
+background-color: #7c9fe3ff;
+background-image: url("../images/waterback.png");
 }
 
 div.maincontent
 {
-margin: auto;
+margin: 5% auto;
 float: right;
 width: 75%;
 min-width: 400px;
-border: 5px none #000000;
+border: 5px none #00000000;
 padding: 1%;
 background-color: #ffffffdd;
 }
 
 div.navbar
 {
-margin: auto;
+margin: 5% auto;
 width: 18%;
 min-width: 100px;
 float: left;
-border: 1px solid yellow;
+border: 1px solid #ffff00ff;
 padding: 1%;
 font-family: sans-serif;
-background-color: black;
+background-color: #00000088;
 color: white;
 }
 
-div.navbar ul
+div.navbar ul ol
 {
-background-color: #ffff99;
-list-style-type: square;
+background-color: #ffff99ff;
+list-style-type: lower-alpha;
 list-style-position: inside;
-color: #003333;
+color: #002020ff;
 font-size: 14px;
 padding: 5px;
+margin: 0% 5%;
+}
+
+div.navbar ul ol a
+{
+text-decoration: none;
+color: #a02050ff;
 }
 
 div.navbar img
@@ -160,12 +163,29 @@ div.navbar img
 margin: auto;
 }
 
-img
+div.navbar a
 {
-max-width: 100%;
-min-width: 20px;
-height: auto;
+text-decoration: none;
+color: #f05000ff;
 }
+
+div.navbar a:hover
+{
+background-color: #000000ff;
+color: #8888ffff;
+}
+
+div.navbar ul
+{
+background-color: #eeeeeeff;
+list-style-type: square;
+list-style-position: inside;
+color: #dd9900ff;
+font-size: 14px;
+padding: 5px;
+margin: 5% auto;
+}
+
 
 @media screen and (max-width:950px)
 {
@@ -179,7 +199,6 @@ margin: auto;
 
 div.maincontent
 {
-margin: auto;
 width: 90%;
 float: none;
 min-width: 400px;
@@ -188,7 +207,6 @@ padding: 1%;
 
 div.navbar
 {
-margin: auto;
 width: 90%;
 float: none;
 min-width: 400px;
