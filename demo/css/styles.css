@@ -42,7 +42,6 @@ color: #2ab83a;
 font-family: sans-serif;
 font-size: 32px;
 padding: 1%;
-background-color: #ffffffdd;
 }
 
 p
@@ -53,7 +52,6 @@ font-size: 16px;
 text-align: justify;
 padding: 1%;
 margin: auto 5%;
-background-color: #ffffffdd;
 }
 
 ul
@@ -63,7 +61,6 @@ font-family: serif;
 font-size: 24px;
 font-style: italic;
 margin: 5%;
-background-color: #ffffffdd;
 }
 
 ol
@@ -73,7 +70,6 @@ font-family: serif;
 font-size: 24px;
 font-style: italic;
 margin: 5%;
-background-color: #ffffffdd;
 }
 
 table
